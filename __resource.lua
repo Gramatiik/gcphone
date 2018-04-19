@@ -1,65 +1,63 @@
-ui_page 'html/index.html'
+resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
+
+client_scripts {
+	"client/animations.lua",
+	"client/main.lua"
+}
+
+server_scripts {
+	"@mysql-async/lib/MySQL.lua",
+	"server/mysqltimestamp.lua",
+	"server/main.lua"
+}
+
+ui_page 'client/html/dist/index.html'
 
 files {
-	'html/index.html',
-	'html/static/css/app.css',
-	'html/static/js/app.js',
-	'html/static/js/manifest.js',
-	'html/static/js/vendor.js',
-	
-	'html/static/img/coque/bleu.png',
-	'html/static/img/coque/blanc.png',
-	'html/static/img/coque/jaune.png',
-	'html/static/img/coque/leopard.png',
-	'html/static/img/coque/noir.png',
-	'html/static/img/coque/or.png',
-	'html/static/img/coque/rose.png',
-	'html/static/img/coque/rouge.png',
-	'html/static/img/coque/vert.png',
-	'html/static/img/coque/violet.png',
-	'html/static/img/coque/zebre.png',
-	
-	'html/static/img/back001.jpg',
-	'html/static/img/back002.jpg',
-	'html/static/img/back003.jpg',
-	'html/static/img/01.jpg',
-	'html/static/img/02.jpg',
-	'html/static/img/03.jpg',
-	'html/static/img/04.jpg',
-	'html/static/img/05.jpg',
-	'html/static/img/06.jpg',
-	'html/static/img/07.jpg',
-	'html/static/img/08.jpg',
-	'html/static/img/09.jpg',
-	'html/static/img/10.jpg',
-	'html/static/img/11.jpg',
-	'html/static/img/12.jpg',
-	'html/static/img/13.jpg',
-	'html/static/img/14.jpg',
-	'html/static/img/15.jpg',
-	'html/static/img/16.jpg',
-	'html/static/img/17.jpg',
-	'html/static/img/18.jpg',
-	'html/static/img/19.jpg',
-	'html/static/img/20.jpg',
-	'html/static/img/21.jpg',
-	
-	
-	'html/static/img/call.png',
-	'html/static/img/contacts.png',
-	'html/static/img/sms.png',
-	'html/static/img/settings.png',
+	'client/html/dist/index.html',
+	'client/html/dist/static/css/app.css',
+	'client/html/dist/static/js/app.js',
+	'client/html/dist/static/js/manifest.js',
+	'client/html/dist/static/js/vendor.js',
 
-	'html/static/fonts/fontawesome-webfont.ttf',
+	'client/html/dist/static/img/call.png',
+	'client/html/dist/static/img/contacts.png',
+	'client/html/dist/static/img/sms.png',
+	'client/html/dist/static/img/settings.png',
 
+	'client/html/dist/static/img/back001.jpg',
+	'client/html/dist/static/img/back002.jpg',
+	'client/html/dist/static/img/back003.jpg',
+	'client/html/dist/static/img/01.jpg',
+	'client/html/dist/static/img/02.jpg',
+	'client/html/dist/static/img/03.jpg',
+	'client/html/dist/static/img/04.jpg',
+	'client/html/dist/static/img/05.jpg',
+	'client/html/dist/static/img/06.jpg',
+	'client/html/dist/static/img/07.jpg',
+	'client/html/dist/static/img/08.jpg',
+	'client/html/dist/static/img/09.jpg',
+	'client/html/dist/static/img/10.jpg',
+	'client/html/dist/static/img/11.jpg',
+	'client/html/dist/static/img/12.jpg',
+	'client/html/dist/static/img/13.jpg',
+	'client/html/dist/static/img/14.jpg',
+	'client/html/dist/static/img/15.jpg',
+	'client/html/dist/static/img/16.jpg',
+	'client/html/dist/static/img/17.jpg',
+	'client/html/dist/static/img/18.jpg',
+	'client/html/dist/static/img/19.jpg',
+	'client/html/dist/static/img/20.jpg',
+	'client/html/dist/static/img/21.jpg',
+
+	'client/html/dist/static/img/apple.png',
+	'client/html/dist/static/img/galaxy-s8.png',
+	'client/html/dist/static/img/samsung.png',
+	'client/html/dist/static/img/windows-phone.png',
+
+	'client/html/dist/static/fonts/fontawesome-webfont.woff2',
 }
 
-client_script {
-	"animation.lua",
-	"client.lua"
+dependencies {
+	'mysql-async'
 }
-
-server_script {
-	"server.lua"
-}
-

@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Apple",
+    "data": {
+      "filename": "apple.png",
+      "styles": {
+        "top": "62px",
+        "right": "28px",
+        "bottom": "64px",
+        "left": "29px"
+      }
+    }
+  },
+  {
+    "title": "Samsung",
+    "data": {
+      "filename": "samsung.png",
+      "styles": {
+        "top": "48px",
+        "right": "16px",
+        "bottom": "48px",
+        "left": "17px"
+      }
+    }
+  },
+  {
+    "title": "Samsung Galaxy S8",
+    "data": {
+      "filename": "galaxy-s8.png",
+      "styles": {
+        "top": "27px",
+        "right": "23px",
+        "bottom": "24px",
+        "left": "25px",
+        "border-radius": "20px"
+      }
+    }
+  },
+  {
+    "title": "Windows Phone",
+    "data": {
+      "filename": "windows-phone.png",
+      "styles": {
+        "top": "52px",
+        "right": "26px",
+        "bottom": "89px",
+        "left": "24px"
+      }
+    }
+  }
+]
